@@ -1,13 +1,17 @@
 Excel Challenge
-*Background
+
 
 ![image](https://user-images.githubusercontent.com/106934375/187578901-0ba11ee4-7fe2-4460-b29b-9310e8619c2d.png)
+
+## Background
 
 Crowdfunding platforms like Kickstarter and Indiegogo have been growing in success and popularity since the late 2000s. From independent content creators to famous celebrities, more and more people are using crowdfunding to launch new products and generate buzz, but not every project has found success.
 
 To receive funding, the project must meet or exceed an initial goal, so many organizations dedicate considerable resources looking through old projects in an attempt to discover “the trick” to finding success. For this week's Challenge, you will organize and analyze a database of 1,000 sample projects to uncover any hidden trends.
 
-*Instructions
+## Instructions
+
+
 ![image](https://user-images.githubusercontent.com/106934375/187579212-0d9999b2-d16e-49c0-849c-7d033f3b4791.png)
 Create a new column called Average Donation that uses a formula to find how much each project backer paid on average.
 
@@ -24,7 +28,11 @@ Use conditional formatting to fill each cell in the outcome column with a differ
 
 Create a new column called Percent Funded that uses a formula to find how much money a campaign made relative to its initial funding goal.
 Use conditional formatting to fill each cell in the Percent Funded column according to a three-color scale. The scale should start at 0 with a dark shade of red, and it should transition to green at 100 and blue at 200.
+
+
 ![image](https://user-images.githubusercontent.com/106934375/187579438-be5c0690-9a7e-4f51-8c52-346b4ac65a15.png)
+
+
 Create a new column called Average Donation that uses a formula to find how much each project backer paid on average.
 
 Create two new columns, one called Parent Category and another called Sub-Category, that use formulas to split the Category and Sub-Category column into the two new, separate columns.
@@ -44,6 +52,8 @@ The dates in the deadline and launched_at columns use Unix timestamps. Fortunate
 Create a new column named Date Created Conversion that will use this formula (Links to an external site.) to convert the data contained in launched_at into Excel's date format.
 
 Create a new column named Date Ended Conversion that will use this formula (Links to an external site.) to convert the data contained in deadline into Excel's date format.
+
+
 ![image](https://user-images.githubusercontent.com/106934375/187579778-cfbddc69-a591-4e73-a404-03591fcf72cf.png)
 
 Create a new sheet with a pivot table that has a column of outcome, rows of Date Created Conversion, values based on the count of outcome, and filters based on parent category and Years.
@@ -99,7 +109,9 @@ Less than 1000
 
 Greater than or equal to 50000
 
+
 ![Uploading image.png…]()
+
 
 Using the COUNTIFS() formula, count how many successful, failed, and canceled projects were created with goals within the ranges listed above. Populate the Number Successful, Number Failed, and Number Canceled columns with these data points.
 
@@ -107,7 +119,8 @@ Add up each of the values in the Number Successful, Number Failed, and Number Ca
 
 Create a line chart that graphs the relationship between a goal amount and its chances of success, failure, or cancellation.
 
-Bonus Statistical Analysis
+## Bonus Statistical Analysis
+
 Most people would use the number of campaign backers to assess the success of a crowdfunding campaign. Creating a summary statistics table is one of the most efficient ways that data scientists can characterize quantitative metrics, such as the number of campaign backers.
 
 For an additional challenge, evaluate the number of backers of successful and unsuccessful campaigns by creating your own summary statistics table.
