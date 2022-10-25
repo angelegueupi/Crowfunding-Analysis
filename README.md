@@ -41,7 +41,7 @@ Create two new columns, one called Parent Category and another called Sub-Catego
 
 Create a new sheet with a pivot table that analyzes your initial worksheet to count how many campaigns were successful, failed, canceled, or are currently live per category.
 Create a stacked-column pivot chart that can be filtered by country based on the table that you created.
-![image](https://user-images.githubusercontent.com/106934375/187579657-c31f0b7c-af88-4ff6-87a0-303889f1de72.png)
+
 
 Create a new sheet with a pivot table that analyzes your initial sheet to count how many campaigns were successful, failed, or canceled, or are currently live per sub-category.
 
@@ -53,8 +53,8 @@ Create a new column named Date Created Conversion that will use this formula (Li
 
 Create a new column named Date Ended Conversion that will use this formula (Links to an external site.) to convert the data contained in deadline into Excel's date format.
 
+![image](https://user-images.githubusercontent.com/106934375/197673978-0ac1bcb9-7b17-4ebc-b537-1e704c94a3b6.png)
 
-https://user-images.githubusercontent.com/106934375/187579778-cfbddc69-a591-4e73-a404-03591fcf72cf.png
 
 Create a new sheet with a pivot table that has a column of outcome, rows of Date Created Conversion, values based on the count of outcome, and filters based on parent category and Years.
 
