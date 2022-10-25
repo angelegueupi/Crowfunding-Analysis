@@ -54,7 +54,7 @@ Create a new column named Date Created Conversion that will use this formula (Li
 Create a new column named Date Ended Conversion that will use this formula (Links to an external site.) to convert the data contained in deadline into Excel's date format.
 
 
-![image](https://user-images.githubusercontent.com/106934375/187579778-cfbddc69-a591-4e73-a404-03591fcf72cf.png
+https://user-images.githubusercontent.com/106934375/187579778-cfbddc69-a591-4e73-a404-03591fcf72cf.png
 
 Create a new sheet with a pivot table that has a column of outcome, rows of Date Created Conversion, values based on the count of outcome, and filters based on parent category and Years.
 
